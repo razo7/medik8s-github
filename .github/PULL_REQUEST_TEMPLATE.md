@@ -1,5 +1,6 @@
 <!-- Thanks for contributing to our project! We appreciate your time and effort.
-Please fill out the information below to expedite the review and merge of your pull request.
+Please review the Contributing Guide (https://github.com/medik8s/.github/blob/main/CONTRIBUTING.md)
+and fill out the information below to expedite the review and merge of your pull request.
 -->
 
 #### Why we need this PR

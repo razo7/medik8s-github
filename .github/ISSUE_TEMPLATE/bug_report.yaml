@@ -1,0 +1,73 @@
+name: Bug Report
+description: Report a bug in a medik8s operator
+labels: ["kind/bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. Please review the
+        [Contributing Guide](https://github.com/medik8s/.github/blob/main/CONTRIBUTING.md)
+        before submitting.
+
+  - type: input
+    id: operator
+    attributes:
+      label: Operator
+      description: Which operator is affected?
+      placeholder: "e.g. NHC, SNR, FAR, MDR, NMO, SBR"
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Operator version
+      placeholder: "e.g. v0.8.0, commit SHA, or 'main'"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the bug. Include error messages, logs, or screenshots if available.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Minimal steps to reproduce the issue.
+      placeholder: |
+        1. Deploy operator version X
+        2. Create CR with ...
+        3. Observe ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Kubernetes/OpenShift version, platform, and deployment method.
+      placeholder: |
+        - Kubernetes/OpenShift version: v1.30 / OCP 4.16
+        - Platform: AWS, bare-metal, Kind, etc.
+        - Deployment: OLM, make deploy, Helm
+      render: markdown
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Any other context, logs, or references.
