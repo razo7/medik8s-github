@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/medik8s/.github/blob/main/SECURITY.md
+    about: Report a security vulnerability privately (see instructions)
+  - name: Mailing list
+    url: https://groups.google.com/g/medik8s
+    about: Ask questions or start a discussion on the medik8s mailing list
+  - name: Website
+    url: https://www.medik8s.io
+    about: Learn more about the medik8s project
