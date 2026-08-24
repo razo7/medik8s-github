@@ -62,7 +62,6 @@ body:
         - Kubernetes/OpenShift version: v1.30 / OCP 4.16
         - Platform: AWS, bare-metal, Kind, etc.
         - Deployment: OLM, make deploy, Helm
-      render: markdown
     validations:
       required: true
 
