@@ -9,6 +9,10 @@ body:
         [Contributing Guide](https://github.com/medik8s/.github/blob/main/CONTRIBUTING.md)
         before submitting.
 
+        **Important:** Do not include credentials, tokens, or other sensitive
+        data in this report. Redact any sensitive information from logs and
+        configuration snippets before pasting.
+
   - type: input
     id: operator
     attributes:
